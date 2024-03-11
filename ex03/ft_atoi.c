@@ -40,15 +40,15 @@ int	ft_atoi(char *str)
 	return (result * sign);
 }
 
-int	main(void)
-{
-	// char str[] = " ---+--+1234ab567";
-	char 	*str;
-	// int		result;
+// int	main(void)
+// {
+// 	char str[] = " ---+--+1234ab567";
+// 	char 	*str;
+// 	int		result;
 
-	str = " ---+--+1234ab567";
-	// result = ft_atoi(str);
-	// printf("Meu resultado = %d\n", result);
-	printf("Biblioteca = %d\n", atoi(str));
-	return (0);
-}
+// 	str = " ---+--+1234ab567";
+// 	result = ft_atoi(str);
+// 	printf("Meu resultado = %d\n", result);
+// 	printf("Biblioteca = %d\n", atoi(str));
+// 	return (0);
+// }
